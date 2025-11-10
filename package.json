@@ -10,7 +10,7 @@
     "deploy": "vike build && wrangler deploy"
   },
   "dependencies": {
-    "vike": "^0.4.245",
+    "vike": "0.4.246-commit-da49bae",
     "@compiled/react": "^0.18.6",
     "@photonjs/hono": "^0.1.4",
     "hono": "^4.10.4",
