@@ -17,5 +17,8 @@ export default defineConfig({
     optimizeDeps: {
       include: ['@compiled/react/runtime']
     }
+  },
+  optimizeDeps: {
+    include: ['@compiled/react/runtime']
   }
 });
