@@ -13,4 +13,9 @@ export default defineConfig({
     react(),
     telefunc(),
   ],
+  ssr: {
+    optimizeDeps: {
+      include: ['@compiled/react/runtime']
+    }
+  }
 });
